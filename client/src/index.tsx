@@ -15,7 +15,8 @@ setTimeout(selfUpdate, 1000 * 5);
 
 ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement
-).render(
+).render
+	(
 	<div className={theme.wrapper} style={LAYER_GRID_BG}>
 		<Application />
 	</div>
